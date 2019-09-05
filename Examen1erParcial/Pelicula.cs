@@ -79,24 +79,24 @@ namespace Examen1erParcial
         {
             Titulo = "Pendiente";
             AñoEstreno = 0;
-            Director = "Pendiente;
-            Genero = "  Sin asignar";
+            Director = "Pendiente";
+            Genero = "Sin asignar";
             PaisOrigen = "Pendiente";
-            Duracion = 0;
+            Duracion = 1;
             RatingImdb = 0.00;
-            Sinopsis = "Sing asignar";
+            Sinopsis = "Sin asignar";
         }
 
         public Pelicula(string titulo, int añoestreno)
         {
             Titulo = titulo;
             AñoEstreno = añoestreno;
-            Director = director;
-            Genero = genero;
-            PaisOrigen = paisorigen;
-            Duracion = duracion;
-            RatingImdb = ratingimdb;
-            Sinopsis = sinopsis;
+            Director = "Pendiente";
+            Genero = "Sin asignar";
+            PaisOrigen = "Pendiente";
+            Duracion = 1;
+            RatingImdb = 0.00;
+            Sinopsis = "Sin asignar";
         }
     }
 }
